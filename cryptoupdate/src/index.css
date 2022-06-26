@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app-container{
+  display: flex;
+  gap: 10px;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+.coin-card{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.128);
+  cursor: pointer; /* deze prop == spoof button effect */ 
+}
+.markcap{
+  visibility: hidden;
+}
+
+.coin-card > img{
+  width: 50px;
+  height: auto;
+}
+.coin-card:hover{
+  background-color:rgba(61, 60, 60, 0.128);
+ 
+}
+
+.coin-card:hover .markcap{
+  visibility: visible;
+ 
+}
+
