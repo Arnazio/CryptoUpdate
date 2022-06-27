@@ -6,8 +6,8 @@ export default function CryptoTool({ coinName, data }) {
     return(
         <div className='coin-card'>
             <h1>{coinName}</h1>
-            <h3 className='markcap'> {data.market_cap}</h3>
-            <h3>{data.current_price}$</h3>
+            <h3 className='markcap'> {data.market_cap}$</h3>
+            <h3 className ='currentprice'>{data.current_price}$</h3>
             
             <img src={data.image} alt="KRIJG KANKER AAN DE OGEN + OOK AIDS EN ANDERE ZOOI" />
             

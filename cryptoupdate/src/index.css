@@ -48,4 +48,9 @@ code {
   visibility: visible;
  
 }
+.coin-card:hover .currentprice{
+  visibility: hidden;
+ 
+}
+
 
