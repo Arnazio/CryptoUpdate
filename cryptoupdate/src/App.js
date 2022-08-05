@@ -33,7 +33,11 @@ function App() {
   );
   
 }
+function Move()
+{
+  const circle = document.getElementById("coin-card");
+  cirl
+  
+}
 
-
-//er moet gwn een functie in die de page elke 10 sec refreshed, ehm ja setInterval in een useEffect gewoon in DE useEffect op deze pagina
-export default App;
+export default {App, Move}
